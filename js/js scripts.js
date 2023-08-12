@@ -1,1 +1,1 @@
-console.log {"External js Linked!"};
+console.log("your index.js file is loaded correctly");

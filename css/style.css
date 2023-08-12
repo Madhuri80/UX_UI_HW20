@@ -1,0 +1,46 @@
+navbar navbar-expand-lg navbar-light bg-light {
+    background-color:#008080; /* Change the background color of the navigation bar */
+   
+}
+.navbar-brand img {
+    width:100px;
+}
+.navbar-brand {
+font-family:"Brown Sugar", serif;
+color:#FFFFFF;
+
+}
+.nav-item {
+  color:#FFFFFF;
+}
+
+
+.jumbotron {
+  background-image: url(../images/screenstop.png);
+  background-size:50%;
+  background-repeat:no-repeat;
+  background-position-x: right;
+  }
+  .display-4 {
+  height:400px;
+  width:50px;
+
+  }
+  .btn-primary {
+    background-color:#B57724;
+    border-color:#B57724;
+  }
+  .jumbotron-content {
+    
+  }
+
+
+  .logo {
+    max-width:80px;
+  }
+
+  
+
+
+ 
+ 
