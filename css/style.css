@@ -1,18 +1,105 @@
-navbar navbar-expand-lg navbar-light bg-light {
-    background-color:#008080; /* Change the background color of the navigation bar */
-   
+/*Original Header Style*/
+html {
+  scroll-behavior: smooth;
 }
-.navbar-brand img {
-    width:100px;
+.inline-block {
+  display:inline-block;
+  vertical-align: top;
+  /*border: 2px solid red;*/
+  
 }
-.navbar-brand {
-font-family:"Brown Sugar", serif;
-color:#FFFFFF;
+header {
+  background-color:#008080;
+  padding: 1%;
+  overflow:hidden;
+  
+  
+  
+}
 
+.logo {
+  /*width: 43%;
+  padding:10px;*/
+  background-color:#008080;
+  margin: 0 auto;
+ 
 }
-.nav-item {
+
+name {
+ 
+ padding:.30%; 
+  width:auto;
+  background-color: #008080;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align:middle;
+  font-family:"Brown Sugar", serif;
+  font-size:24px;
+  font-weight:525;
+ margin-left:25px ;
+ color:#FFFFFF;
+}
+.logo  img{
+  width:100px;
+  height:100px;
+  
+}
+
+
+  
+nav {
+  background-color:#008080;
+  margin: 0 auto;
+  float: right;
+overflow:hidden;
+vertical-align:top;
+  
+  
+  }
+ 
+  
+
+nav ul {
+  width:450px;
+  float: right;
+  background-color: #008080;
+}
+.topnav a {
+  font-family:"Playfair Display", serif;
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+ .topnav a:link {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+} 
+
+.topnav a:visited {
   color:#FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+} 
+.topnav a:hover {
+  color:#333333 ;
+  text-decoration: underline;
 }
+.topnav a:active {
+  color:#d45b53;
+    background-color: transparent;
+    text-decoration: underline
+} 
+.topnav .icon {
+  display: none;
+}
+
 
 
 .jumbotron {
@@ -38,6 +125,84 @@ color:#FFFFFF;
   .logo {
     max-width:80px;
   }
+  footer.inline-block {
+    display:inline-block
+    vertical-align:middle;
+    
+}
+
+footer {
+    background-color: #333333;
+    overflow:hidden;
+    /*position:fixed;*/
+    /*position:sticky;*/
+    /*border: 2px solid red;*/
+    
+}
+
+footer ul {
+    display:inline-block;
+    vertical-align:middle;
+    background-color: #333333;
+   width:50%;
+   float:left;
+}
+
+footer ul li {
+    margin-left: 2%;
+    margin-right:2%;
+    text-align:center;
+    font-family:"Playfair Display", serif;
+    font-size: 18px;
+    
+  /*  background-color:#333333; */
+    
+
+}
+footer ul li a:link {
+    color:#008080;
+    background-color: transparent;
+    text-decoration: none;
+  }
+footer ul li a:visited {
+    color:  #008080;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    color:#FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  footer ul li a:active {
+    color:#d45b53;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+ 
+ .corporatelogo {
+    display:block;
+    justify-items:center;
+    float:right;
+
+   
+ }
+ footer .corporatelogo p {
+    color:white;
+   
+ }
+
+ .corporatelogo img {
+    width:100px;
+    height:100px;
+    
+    vertical-align:bottom;
+    
+ }
+ 
+
 
   
 
