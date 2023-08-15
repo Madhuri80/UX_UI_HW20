@@ -135,9 +135,15 @@ nav ul {
 }
 .container h3 {
   color:#2D6155;
+  font-family:"Playfair Display", serif;
 }
 .container h2 {
   color:#2D6155;
+  font-family:"Playfair Display", serif;
+}
+.container h3 {
+  color:#2D6155;
+  font-family:"Playfair Display", serif;
 }
 .container {
   background:transparent;
@@ -145,6 +151,16 @@ nav ul {
 .heuristic img {
   width:50%;
 }
+.container p {
+  font-family:"Playfair Display", serif;
+  font-size:18px;
+}
+li {
+  
+
+    font-family:"Playfair Display", serif;
+  }
+
 
 footer {
     background-color: #333333;
