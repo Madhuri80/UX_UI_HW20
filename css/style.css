@@ -8,6 +8,9 @@ html {
   /*border: 2px solid red;*/
   
 }
+body {
+  background-image: linear-gradient(to bottom,#E2E2E2,#D9D9D9,#3C9D9D);
+}
 header {
   background-color:#008080;
   padding: 1%;
@@ -129,6 +132,18 @@ nav ul {
     display:inline-block
     
     
+}
+.container h3 {
+  color:#2D6155;
+}
+.container h2 {
+  color:#2D6155;
+}
+.container {
+  background:transparent;
+}
+.heuristic img {
+  width:50%;
 }
 
 footer {
