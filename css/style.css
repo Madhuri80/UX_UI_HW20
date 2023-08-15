@@ -127,7 +127,7 @@ nav ul {
   }
   footer.inline-block {
     display:inline-block
-    vertical-align:middle;
+    
     
 }
 
@@ -201,11 +201,7 @@ footer ul li a:visited {
     vertical-align:bottom;
     
  }
- 
-
-
-  
-
-
- 
+.nav-item img {
+  width:100%;
+}
  
